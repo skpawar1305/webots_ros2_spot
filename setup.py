@@ -7,6 +7,7 @@ data_files.append(('share/ament_index/resource_index/packages', ['resource/' + p
 data_files.append(('share/' + package_name + '/launch', ['launch/spot_launch.py']))
 data_files.append(('share/' + package_name + '/worlds', ['worlds/spot.wbt']))
 data_files.append(('share/' + package_name + '/resource', ['resource/spot.urdf']))
+data_files.append(('share/' + package_name + '/resource', ['resource/spot_im.urdf']))
 data_files.append(('share/' + package_name + '/protos', ['protos/Spot.proto','protos/SpotLeftLeg.proto', 'protos/SpotRightLeg.proto']))
 data_files.append(('share/' + package_name + '/protos/icons', ['protos/icons/Spot.png']))
 data_files.append(('share/' + package_name, ['package.xml']))
